@@ -2,31 +2,40 @@
 <html>
   <head>
     <title>Teoría de los triángulos</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Teoría de los triángulos</h1>
     <img src="/images/image-1.png" alt="Portada" />
+    <h1>Teoría de los triángulos</h1>
     <h2>Inserta las medidas del triángulo</h2>
-    <div class="input-field">
-      <label for="side1">Lado 1:</label>
-      <input type="number" id="side1" />
-    </div>
-    <div class="input-field">
-      <label for="side2">Lado 2:</label>
-      <input type="number" id="side2" />
-    </div>
-    <div class="input-field">
-      <label for="side3">Lado 3:</label>
-      <input type="number" id="side3" />
+    <div class="input">
+      <div class="input-field">
+        <label for="side1">Lado 1</label>
+        <input type="number" id="side1" />
+      </div>
+      <div class="input-field">
+        <label for="side2">Lado 2</label>
+        <input type="number" id="side2" />
+      </div>
+      <div class="input-field">
+        <label for="side3">Lado 3</label>
+        <input type="number" id="side3" />
+      </div>
     </div>
     <button>Calcular</button>
     <div class="result">
-      <img src="/images/image-2.jpeg" alt="Elemento" />
-      <p>Clasificación: <span id="classification"></span></p>
-      <img src="/images/image-2.jpeg" alt="Elemento" />
-      <p>Área: <span id="area"></span></p>
-      <img src="/images/image-2.jpeg" alt="Elemento" />
-      <p>Perímetro: <span id="perimeter"></span></p>
+      <div class="result-one">
+        <img src="/images/image-2.jpeg" alt="Elemento" />
+        <p>Clasificación: <span id="classification"></span></p>
+      </div>
+      <div class="result-two">
+        <img src="/images/image-2.jpeg" alt="Elemento" />
+        <p>Área: <span id="area"></span></p>
+      </div>
+      <div class="result-three">
+        <img src="/images/image-2.jpeg" alt="Elemento" />
+        <p>Perímetro: <span id="perimeter"></span></p>
+      </div>
     </div>
   </body>
 </html>
