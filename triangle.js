@@ -22,8 +22,6 @@ function calculatePerimeter(side1, side2, side3) {
     let side2 = parseFloat(document.querySelector('#side2').value);
     let side3 = parseFloat(document.querySelector('#side3').value);
   
-    document.querySelector('#classification').textContent = classifyTriangle(side1, side2, side3);
-    document.querySelector('#area').textContent = calculateArea(side1, side2, side3);
-    document.querySelector('#perimeter').textContent = calculatePerimeter(side1, side2, side3);
+  
   });
   
